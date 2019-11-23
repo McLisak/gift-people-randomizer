@@ -1,0 +1,31 @@
+{
+  "name": "gift-people-randomizer",
+  "version": "1.0.0",
+  "description": "Quick and modern way to randomly distribute who buys a gift for who.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./demo/index.html",
+    "build": "parcel build ./demo/index.html --out-dir ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McLisak/gift-people-randomizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McLisak/gift-people-randomizer/issues"
+  },
+  "homepage": "https://github.com/McLisak/gift-people-randomizer#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.2",
+    "parcel": "^1.12.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
