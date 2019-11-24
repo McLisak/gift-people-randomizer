@@ -15,4 +15,4 @@ var t=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0}),export
 },{"../src/gift-people-randomizer":"GTb6","./List":"onl8","./Drawer":"FNoA"}],"Focm":[function(require,module,exports) {
 "use strict";var e=r(require("vue")),u=r(require("./App.vue"));function r(e){return e&&e.__esModule?e:{default:e}}new e.default({render:function(e){return e(u.default)}}).$mount("#app");
 },{"vue":"QPfz","./App.vue":"Js2s"}]},{},["Focm"], null)
-//# sourceMappingURL=/demo.d4244576.js.map
+//# sourceMappingURL=demo.d4244576.js.map
