@@ -4,7 +4,7 @@ export class GiftPeopleRandomizer {
    * @param {string[]} people
    */
   constructor(people) {
-    this.people = people || ['a', 'b'];
+    this.people = people || [];
     this.result = [];
   }
 
