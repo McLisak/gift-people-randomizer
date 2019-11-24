@@ -4,7 +4,7 @@ export class GiftPeopleRandomizer {
    * @param {string[]} people
    */
   constructor(people) {
-    this.people = people || [];
+    this.people = people || ['a', 'b'];
     this.result = [];
   }
 
@@ -18,7 +18,7 @@ export class GiftPeopleRandomizer {
     const buys = this.buyingPeople[buysIndex];
     let gets = this.gettingPeople[getsIndex];
     if (buys === gets) {
-      getsIndex = getsIndex === this.gettingPeople.length ? 0 : ++getsIndex;
+      getsIndex = getsIndex === this.gettingPeople.length - 1 ? 0 : ++getsIndex;
       gets = this.gettingPeople[getsIndex];
     }
     this.buyingPeople.splice(buysIndex, 1);
