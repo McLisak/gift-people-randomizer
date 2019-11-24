@@ -187,6 +187,7 @@ ul.edit-list li > span:first-of-type {
   align-items: center;
   top: 0;
   padding: 0 15px;
+  z-index: 1;
 }
 .drawer-content {
   padding: 15px;
