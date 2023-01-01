@@ -21,7 +21,7 @@
   "homepage": "https://github.com/McLisak/gift-people-randomizer#readme",
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.2",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
